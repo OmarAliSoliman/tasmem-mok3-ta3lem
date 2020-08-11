@@ -1,0 +1,439 @@
+@charset "UTF-8";
+@font-face {
+  font-family: myFont;
+  src: url("../fonts/DINNextLTArabic-Regular.ttf");
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+body {
+  direction: rtl;
+  font-family: myFont;
+  height: 4000px;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.slider-item:focus {
+  outline: 0;
+}
+
+.navbar {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.navbar .navbar-brand img {
+  height: 68px;
+}
+.navbar .nav-item {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbar .nav-item .nav-link {
+  color: #fff;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #fff;
+}
+.navbar .active .nav-link {
+  background-color: #fff;
+  border-radius: 30px;
+  color: #123078 !important;
+}
+.navbar .phone {
+  border: 1px solid #fff;
+  width: 190px;
+  border-radius: 24px;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+.navbar .phone span {
+  color: #fff;
+}
+.navbar .phone i {
+  color: #fff;
+}
+
+.header {
+  height: 700px;
+  padding-top: 150px;
+  position: relative;
+}
+.header .header-content {
+  color: #fff;
+}
+.header .header-content .header-par {
+  margin-top: 30px;
+}
+.header .header-content .header-par .container {
+  padding-right: 80px;
+  padding-left: 0px !important;
+}
+.header .header-content .row {
+  margin: 0;
+}
+.header .header-content h5 {
+  font-size: 40px;
+}
+.header .header-content p {
+  font-size: 14px;
+  line-height: 28px;
+}
+.header .header-content .quiestion img {
+  width: 148px;
+  margin-top: 80px;
+  display: inline-block;
+  margin-right: -10px;
+}
+.header .header-content .col-lg-6 {
+  padding: 0;
+  margin: 0;
+}
+.header .header-content .header-image {
+  height: 407px;
+  background-position: -50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.header .scroll {
+  position: absolute;
+  width: 22px;
+  height: 34px;
+  bottom: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.header .book-circle {
+  display: inline-block;
+  background-color: #fff;
+  width: 154px;
+  height: 154px;
+  text-align: center;
+  line-height: 154px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -70px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.16);
+  left: 10%;
+  transform: translate(-10%, 0);
+}
+.header .book-circle img {
+  width: 79px;
+  height: 65px;
+}
+
+.properties {
+  margin-top: 107px;
+}
+.properties .section-header {
+  text-align: center;
+}
+.properties .section-header h5 {
+  font-size: 32px;
+  color: #3D495E;
+}
+.properties .section-header .section-header-p {
+  font-size: 24px;
+  color: #3D495E;
+}
+.properties .par {
+  text-align: center;
+  font-size: 18px;
+  color: #3D495E;
+  line-height: 28px;
+}
+
+.properties-details {
+  margin-top: 118px;
+}
+.properties-details ul li {
+  position: relative;
+  padding-right: 26px;
+}
+.properties-details ul li::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #16B6D0;
+}
+.properties-details ul li p {
+  font-size: 18px;
+  color: #3D495E;
+}
+.properties-details .details-img {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 340px;
+}
+
+.beast-company {
+  background-color: #123078;
+  margin-top: 150px;
+  padding-top: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.beast-company .section-header h5 {
+  color: #fff;
+  font-size: 40px;
+}
+.beast-company .par {
+  color: #fff;
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+.beast-company .best-details .best-img {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 408px;
+}
+.beast-company .best-details .card {
+  padding-right: 60px;
+  background-color: transparent;
+  margin-bottom: 30px;
+  border: 0;
+}
+.beast-company .best-details .card .card-icon {
+  background-position: center;
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+}
+.beast-company .best-details .card .card-icon-an {
+  width: 52px;
+  height: 38px;
+}
+.beast-company .best-details .card .card-title {
+  text-align: right;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.get {
+  background-color: #08BFDC;
+  text-align: center;
+  color: #fff;
+  padding-top: 107px;
+  padding-bottom: 110px;
+  position: relative;
+}
+.get::after {
+  content: "";
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  color: #08BFDC;
+  position: absolute;
+  font-size: 40px;
+  left: 50%;
+  bottom: -33px;
+}
+.get h5 {
+  font-size: 48px;
+}
+.get p {
+  font-size: 16px;
+}
+
+.work {
+  margin-top: 82px;
+}
+.work .card {
+  padding: 0;
+  border: 0;
+  margin-bottom: 30px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.16);
+  border-top-right-radius: 29px;
+  border-top-left-radius: 29px;
+  border-bottom-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+}
+.work .card .card-footer {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-bottom-right-radius: 29px;
+  border-bottom-left-radius: 29px;
+}
+.work .card .card-title {
+  color: #3D495E;
+  font-size: 24px;
+}
+.work .card .card-link {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  transform: translate(-10%, -50%);
+}
+.work .card .card-link i {
+  color: #440E83;
+  font-size: 30px;
+}
+.work .card .card-img {
+  background-position: center;
+  background-size: cover;
+  height: 200px;
+  border-top-right-radius: 29px;
+  border-top-left-radius: 29px;
+}
+
+.contact {
+  background-color: #1E80C2;
+  padding-top: 110px;
+  padding-bottom: 120px;
+  margin-top: 160px;
+}
+.contact .contact-header p {
+  color: #fff;
+  font-size: 38px;
+  max-width: 50%;
+  margin-bottom: 30px;
+}
+.contact .contact-form {
+  background-color: #fff;
+  padding: 32px;
+  border-radius: 17px;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  z-index: 4;
+}
+.contact .contact-form::before {
+  position: absolute;
+  content: url("../images/bg-1.png");
+  left: -20px;
+  top: 10px;
+}
+.contact .contact-form::after {
+  position: absolute;
+  content: url("../images/bg-2.png");
+  left: -40px;
+  top: 40px;
+  z-index: -1;
+}
+.contact .contact-form .form-group {
+  position: relative;
+  margin-top: 20px;
+}
+.contact .contact-form .form-group i {
+  color: #123078;
+  font-size: 20px;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+.contact .contact-form .form-group .form-control {
+  width: 92%;
+  float: left;
+  background-color: #F6F8FA;
+  height: 48px;
+  border: 0;
+  border-radius: 7px;
+}
+.contact .contact-form .form-group .text-form-control {
+  height: 109px;
+}
+.contact .contact-form .btn-submit {
+  text-align: center;
+}
+.contact .contact-form .btn-submit .btn {
+  background-color: #123078;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  border-radius: 24px;
+  width: 92%;
+  float: left;
+  margin-top: 34px;
+}
+
+.contact-info {
+  background-color: #3C414B;
+  padding: 45px;
+  color: #fff;
+}
+.contact-info .con {
+  margin-top: 10px;
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    position: unset;
+    padding-bottom: 20px;
+    background-color: #123078;
+  }
+  .navbar .navbar-nav {
+    text-align: center;
+    padding-top: 10px;
+  }
+  .navbar .phone-parent {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .navbar .phone {
+    display: inline-block;
+  }
+
+  .header {
+    padding-top: 50px;
+    margin-top: -1px;
+  }
+  .header .header-par .container {
+    padding-right: 0px !important;
+  }
+  .header .header-image {
+    display: none;
+  }
+}
+@media (max-width: 524px) {
+  .header .header-par .container {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+  }
+  .header .header-par .quiestion img {
+    margin-top: 50px;
+  }
+
+  .contact .contact-form {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .contact .contact-header p {
+    max-width: 100% !important;
+  }
+
+  .contact .contact-form::after {
+    display: none;
+  }
+
+  .contact .contact-form::before {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
